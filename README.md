@@ -8,6 +8,7 @@ In this repository you'll find the following exercises:
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/speed_test/Instructions.ipynb">Typing Speed Test</a>.</li>
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/memory_management/Instructions.ipynb">Memory Managment Helper</a>.</li>
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/sudoku/Instructions.ipynb">Automatic Sudoku Solver</a> (includes a prebuilt UI).</li>
+    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/xo_game/instructions.ipynb">XO Game</a> (multiple complexity levels)</li>    
 </ol>
 
 All exercises have detailed instructions and a solution.
