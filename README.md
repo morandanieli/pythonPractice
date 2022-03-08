@@ -17,7 +17,7 @@ All exercises have detailed instructions and a solution.
 
 IMPORTANT IMPORTANT IMPORTANT
 
-To get notified about upcoming online courses and workshop subsribe to **Growz.Online Loyalty Program**
+To get notified about upcoming online courses and workshops subsribe to **Growz.Online Loyalty Program**
 https://forms.gle/eFTMfYTFY6hGHsNQ7
 
 
