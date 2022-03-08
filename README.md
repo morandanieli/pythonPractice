@@ -5,9 +5,9 @@ Throughout hours of Python teaching, I collected the most interesting and challe
 In this repository you'll find the following exercises:
 <ol>
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/english_dictionary/Instructions.ipynb">English-English Dictionary</a>.</li>
-    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/speed_test/instructions.ipynb">Typing Speed Test</a>.</li>
-    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/memory_management/instructions.ipynb">Memory Managment Helper</a>.</li>
-    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/sudoku/Instructions.ipynb">Automatic Sudoku Solver</a>.</li>
+    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/speed_test/Instructions.ipynb">Typing Speed Test</a>.</li>
+    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/memory_management/Instructions.ipynb">Memory Managment Helper</a>.</li>
+    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/sudoku/Instructions.ipynb">Automatic Sudoku Solver</a> (includes a prebuilt UI).</li>
 </ol>
 
 All exercises have detailed instructions and a solution.

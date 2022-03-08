@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <link rel="stylesheet" media="all" href="/static/sudoku.css" />
+  <title>Python Sudoku Solver</title>
+</head>
+<body>
+<h1 id="sudoku_title">SUDOKU</h1>
+
+<div id="sudoku_board" style='padding-left:20%; margin-left: auto; margin-right: auto;'>
+<table>
+  {% for row in board %}
+  <ul>
+    {% for col in row %}
+    <li><button class="cell">{{col}}</button></li>
+  {% endfor %}
+    </ul>
+  {% endfor %}
+  </table>
+</div>
+  <br>
+  <button id="checkValid" onclick="checkValid(this)" style='padding-left: 20px; padding-right: 20px; margin-right: 20px; padding-top: 10px; padding-bottom:10px;'>Check Valid</button>
+  <button id="autoSolve" onclick="autoSolve(this)" style='padding-left: 20px; padding-right: 20px;padding-top: 10px; padding-bottom:10px;'>Auto Solve</button>
+
+<div id="sudoku_container"></div>
+</body>
+<script>
+function checkValid(btn) {
+    btn.disabled = true;
+    $.ajax({
+        type: "POST",
+        url: "/checkValid",
+        data: {
+            board: {{board|safe}}
+        },
+        success: function(result) {
+            if (result['result']) {
+                alert('valid');
+            } else {
+                alert('invalid');
+            }
+            btn.disabled = false;
+        },
+        error: function(result) {
+            alert('error');
+            btn.disabled = false;
+        }
+    });
+}
+
+function autoSolve(btn) {
+    btn.disabled = true;
+    $.ajax({
+        type: "POST",
+        url: "/autoSolve",
+        data: {
+            board: {{board|safe}}
+        },
+        success: function(result) {
+            if (result['result']) {
+                var sudoku_board = document.getElementById('sudoku_board');
+                var board = result['result'];
+                sudoku_board.innerHTML = board;
+            } else {
+                alert('invalid');
+            }
+            btn.disabled = false;
+        },
+        error: function(result) {
+            alert('error');
+            btn.disabled = false;
+        }
+    });
+}
+</script>
+</html>
