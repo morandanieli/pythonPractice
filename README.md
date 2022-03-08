@@ -7,7 +7,7 @@ In this repository you'll find the following exercises:
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/english_dictionary/Instructions.ipynb">English-English Dictionary</a>.</li>
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/speed_test/instructions.ipynb">Typing Speed Test</a>.</li>
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/memory_management/instructions.ipynb">Memory Managment Helper</a>.</li>
-    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/sudoku/instructions.ipynb">Automatic Sudoku Solver</a>.</li>
+    <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/sudoku/Instructions.ipynb">Automatic Sudoku Solver</a>.</li>
 </ol>
 
 All exercises have detailed instructions and a solution.
