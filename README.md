@@ -14,7 +14,7 @@ In this repository you'll find the following exercises:
 All exercises have detailed instructions and a solution.
 
 <div style='border: 2px solid black;'>
-IMPORTANT
+IMPORTANT IMPORTANT IMPORTANT
 
 To get notified about upcoming online courses and workshop subsribe to my loyalty program
 https://forms.gle/eFTMfYTFY6hGHsNQ7
