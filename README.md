@@ -13,6 +13,8 @@ In this repository you'll find the following exercises:
 
 All exercises have detailed instructions and a solution.
 
+
+
 <div style='border: 2px solid black;'>
 IMPORTANT IMPORTANT IMPORTANT
 
@@ -20,5 +22,5 @@ To get notified about upcoming online courses and workshop subsribe to **Growz.O
 https://forms.gle/eFTMfYTFY6hGHsNQ7
 </div>
 
-<small>Practicing Python in a Zoom class</small>
 ![title](img/python_class.jpg)
+<small>Practicing Python in a Zoom class</small>
