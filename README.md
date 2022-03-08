@@ -13,7 +13,7 @@ In this repository you'll find the following exercises:
 
 All exercises have detailed instructions and a solution.
 
-<div style='board: 2px solid black;'>
+<div style='border: 2px solid black;'>
 IMPORTANT
 
 To get notified about upcoming online courses and workshop subsribe to my loyalty program
