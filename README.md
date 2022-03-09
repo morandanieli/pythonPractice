@@ -1,4 +1,4 @@
-# Top 3 Advanced Python Exercises for Beginners
+# Top 5 Advanced Python Exercises for Beginners
 
 Throughout hours of Python teaching, I collected the most interesting and challenging exercises for Python developers who would like to improve their programming skills and knowledge.
 
