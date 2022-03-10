@@ -11,7 +11,7 @@ In this repository you'll find the following exercises:
     <li><a href="https://github.com/morandanieli/pythonPractice/blob/master/xo_game/instructions.ipynb">XO Game</a> (multiple complexity levels)</li>    
 </ol>
 
-All exercises have detailed instructions and a solution.
+All exercises have detailed instructions and solutions.
 
 
 
